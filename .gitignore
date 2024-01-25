@@ -142,3 +142,10 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+
+.nvmrc
+package-lock.json
+package.json
+pages/
+.vscode/
