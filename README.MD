@@ -13,15 +13,4 @@ Você pode instalar a nossa versão (lts/hydrogen) e usamos o react-dom, você p
  npm run dev
  ```
 
-##  Estudos do meio do caminho
-
-### Túneis de desenvolvimento
-
-Como estava desenvolvendo no VScode, então utilizei os [túneis de desenvolvimento da própria Microsoft](https://learn.microsoft.com/pt-br/azure/developer/dev-tunnels/overview) para gluns testes!
-
-
-### Deploy no Vercel 
-
-O deploy fiz pelo vercel [URL](https://clone-tabnews-3pf2.vercel.app/)
-
-"Os túneis de desenvolvimento permitem que os desenvolvedores compartilhem com segurança serviços Web locais na Internet".
+ Visite meus estudo nesse [MD](anotacoes.MD)!
