@@ -13,4 +13,4 @@ Você pode instalar a nossa versão (lts/hydrogen) e usamos o react-dom, você p
  npm run dev
  ```
 
- Visite meus estudo nesse [MD](anotacoes.MD)!
+ Visite meus estudo nesse [MD](anotacoes.md)!
