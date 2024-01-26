@@ -148,4 +148,4 @@ dist
 package-lock.json
 package.json
 pages/
-.vscode/
+.vscode/package.json
