@@ -2,7 +2,22 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-# Next
+
+#  Estudos do meio do caminho
+
+### Túneis de desenvolvimento
+
+Como estava desenvolvendo no VScode, então utilizei os [túneis de desenvolvimento da própria Microsoft](https://learn.microsoft.com/pt-br/azure/developer/dev-tunnels/overview) para gluns testes!
+
+
+### Deploy no Vercel 
+
+O deploy fiz pelo vercel [URL](https://clone-tabnews-3pf2.vercel.app/).
+A versel é a criadora do Next.js, por isso essa escolha. A Versel está super integrada ao framework desse projeto. 
+
+"Os túneis de desenvolvimento permitem que os desenvolvedores compartilhem com segurança serviços Web locais na Internet".
+
+### Next
 
 Renderizar a página do lado do cliente pode levar uma série de consequências ruim para experiência do usuário (lentidão no carregamento do conteúdo) e danos ao SEO. 
 
@@ -18,7 +33,7 @@ https://www.freecodecamp.org/portuguese/news/o-manual-do-next-js-para-iniciantes
 
 2 - package-lock.json toma conta exclusivamente com as dependências e suas versões, e as dependências das suas dependências. 
 
-# git-introducao
+### git-introducao
 
 **VSCode**
 
@@ -72,8 +87,12 @@ git commit --amend --no-edit
 
 Os comando push e push com force serão utilizado para jogar nossos commits em origin.
 
-git push --force - empurrar de forma forçada alterações locais para o origin.
-git push -f - a forma comprimida do comando anterior.
+```
+git push --force
+# Empurrar de forma forçada alterações locais para o origin.
+git push -f
+# Forma comprimida do comando anterior.
+```
 
 Mas por quê preciso fazer um commit forçado? Porque você pertubou a linha do tempo.
 
@@ -90,5 +109,6 @@ Essa foi a pertubação da linha do tempo entre o que está o local e que está 
 
 
 <div class="imagem-container">
-  <img src="./imgs/commitpertubado.png" class="commitpertubado>
+  <img src="./imgs/commitpertubado.png" class="commitpertubado">
 </div>
+
