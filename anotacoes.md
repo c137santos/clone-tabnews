@@ -158,3 +158,8 @@ Por exemplo: 1º conectar com banco, 2º iniciar o framework, 3º dockerizar o p
 Não deixe a base de código crescer com sua letra, você precisa de um formatador de código, como um black ou ruff para o Python. 
 
 Para Next e Javascript 
+
+ #### EditorConfig
+
+Com o [editorconfig](https://editorconfig.org/) Podemos criar um arquivo de configuração que vai deixar tudo arrumadinho, independete do gosto do editor que usar. As configurações normais do editor vão ser trocadas pelo primeiro arquivo encontrado na árvore de diretório. Não encontrado nenhum, ai aplica as regras do editor. 
+Devemos utilizar a extensão do `editorconfig for vs code` para que o vs consiga compreender e aplicar as config do arquivo [.editorconfig](#editorconfig)
