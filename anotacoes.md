@@ -157,7 +157,7 @@ Por exemplo: 1º conectar com banco, 2º iniciar o framework, 3º dockerizar o p
 
 Não deixe a base de código crescer com sua letra, você precisa de um formatador de código, como um black ou ruff para o Python.
 
-Para Next e Javascript
+A diferença entre o editorConfig é a aplicação das regras em tempo real, já o prettier é de vasculhar e verificar qualidade pós save.
 
 #### EditorConfig
 
@@ -183,3 +183,13 @@ Entre os Scripts foi adicionado o "lint:check", onde check é o modo de conferê
 
 **lint:fix**
 Entre os Scripts foi adicionado o scrip "lint:fix", onde o comando é --write permite escrever no projeto consertando conforme as regras postas para o prettier.
+
+### Dicas da comunidade
+
+você adicionou um arquivo ao repositório e só depois criou o .gitignore. Agora precisa remover executando:
+
+**Remover arquivos do rastreamento do git, por exemplo node_modules**
+git rm -r --cached node_modules
+
+**Fazer commit das alterações**
+git commit -m 'Remover `node_modules` do rastreamento do git'
